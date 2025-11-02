@@ -91,5 +91,7 @@ def detect():
     <br><img src='/{filepath}' width='200'>
     """
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    print("✅ Flask app ready. Run locally using:")
+    print("   python app.py")
+
